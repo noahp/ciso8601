@@ -35,11 +35,11 @@ VERSION = "2.2.0"
 CISO8601_CACHING_ENABLED = int(os.environ.get('CISO8601_CACHING_ENABLED', '1') == '1')
 
 setup(
-    name="ciso8601",
+    name="ciso8601-wheels",
     version=VERSION,
     description="Fast ISO8601 date time parser for Python written in C",
     long_description=long_description,
-    url="https://github.com/closeio/ciso8601",
+    url="https://github.com/noahp/ciso8601",
     license="MIT",
     ext_modules=[
         Extension(

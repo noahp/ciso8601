@@ -1,3 +1,6 @@
+*Note: this fork is just for building binary wheels and uploading to pypi, under
+the ``ciso8601-wheels`` package name!*
+
 ========
 ciso8601
 ========
